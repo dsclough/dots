@@ -10,6 +10,7 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set hidden
 set confirm
 set wildchar=<Tab> wildmenu wildmode=full
+set mouse=""
 syntax enable
 colorscheme delek
 hi Search cterm=NONE ctermfg=grey ctermbg=red

@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
 fi
 export PS1="\[\e[1;96m\]\u\[\e[m\]\[\e[1;96m\]@\[\e[m\]\[\e[1;96m\]\h\[\e[m\] \[\e[96m\]\w\[\e[1;34m\] \A \[\e[1;34m\]\\$\[\e[m\] "
 export PYTHONPATH="${PYTHONPATH}:/home/inertia/"
+
+export VISUAL=vim
+export EDITOR="$VISUAL"

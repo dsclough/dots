@@ -5,6 +5,10 @@ sudo apt-get install mysql-client
 sudo apt-get install python-dev
 sudo apt-get install python3-tkinter
 sudo apt-get install python3-pyqt5
+sudo apt-get install tmux
+sudo apt-get install vim
+sudo apt-get install build-essential
+sudo apt-get install gdb
 
 sudo pip3 install PyQt5
 sudo pip3 install qdarkstyle
@@ -18,6 +22,3 @@ sudo pip3 install PyQtChart
 sudo pip3 install lxml
 sudo pip3 install dropbox
 sudo pip3 install tqdm
-
-sudo apt-get install build-essential
-sudo apt-get install gdb

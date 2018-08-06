@@ -117,6 +117,14 @@ if ! shopt -oq posix; then
 fi
 export PS1="\[\e[1;96m\]\u\[\e[m\]\[\e[1;96m\]@\[\e[m\]\[\e[1;96m\]\h\[\e[m\] \[\e[96m\]\w\[\e[1;34m\] \A \[\e[1;34m\]\\$\[\e[m\] "
 export PYTHONPATH="${PYTHONPATH}:/home/inertia/"
-
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+
+# aliases
+alias df="df -h"
+alias du="du -ach | sort -h"
+alias free="free -mt"
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias mkdir="mkdir -pv"
+alias histg="history | grep"

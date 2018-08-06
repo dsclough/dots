@@ -9,8 +9,9 @@ sudo apt-get install tmux
 sudo apt-get install vim
 sudo apt-get install build-essential
 sudo apt-get install gdb
+sudo apt-get install git
 
-sudo pip3 install PyQt5
+#sudo pip3 install PyQt5
 sudo pip3 install qdarkstyle
 sudo pip3 install setuptools
 sudo pip3 install numpy
